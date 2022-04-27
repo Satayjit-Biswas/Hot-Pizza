@@ -1,0 +1,13 @@
+.header_area{
+    background-color: red;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_area_sub_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
