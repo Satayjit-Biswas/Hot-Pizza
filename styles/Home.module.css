@@ -1,50 +1,78 @@
+/* slider area  */
+.slider {
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+  height: calc(100vh - 80px);
 
-.grid {
+}
+.slider_item {
+  height: calc(100vh - 80px);
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.slider_item p{
+  text-align: center;
 }
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.slider_bg_img {
+  position: absolute !important;
+  bottom: -30px !important;
+  right: 120px !important;
+  z-index: 9 !important;
+  max-width: 220px !important;
+  opacity: .7;
 }
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.slider_bg_img1 {
+  position: absolute !important;
+  bottom: -33px !important;
+  right: 120px !important;
+  z-index: 9 !important;
+  max-width: 260px !important;
+  animation: fire 5s ease-in-out infinite;
 }
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.slider_bg_img2 {
+  position: absolute !important;
+  bottom: -30px !important;
+  right: 220px !important;
+  z-index: 8 !important;
+  max-width: 200px !important;
 }
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.slider_left{
+  width: 45%;
+  text-align: center;
 }
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.pizza{
+  font-size: 120px;
+  text-transform: uppercase;
+  line-height: 0;
+  font-weight: 700;
+}
+.slider_right{
+  width: 55%;
+  text-align: center;
+}
+.slider_right span{
+  width: 100% !important;
+}
+.slider_right img{
+  max-width: 100% !important;
+  height: auto; 
+  object-fit: contain;
+}
+@keyframes fire{
+  0%{
+    opacity: .1;
+  }
+  30%{
+    opacity: .6;
+  }
+  50%{
+    opacity: .1;
+  }
+  80%{
+    opacity: .6;
+  }
+  100%{
+    opacity: .1;
   }
 }

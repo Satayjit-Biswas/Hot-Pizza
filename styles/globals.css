@@ -14,7 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+h2{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 0;
+}
+p{
+  text-align: start;
+  line-height: 25px;
+}
 .container {
   padding: 0 50px;
   width: 100%;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: #fff;
 }
