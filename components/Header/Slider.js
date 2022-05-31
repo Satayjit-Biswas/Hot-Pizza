@@ -46,7 +46,7 @@ const Slider = () => {
                                 </p>
                             </div>
                             <div className={styles.slider_right}>
-                                <Image src={s2}></Image>
+                                <Image src={s3}></Image>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -64,7 +64,7 @@ const Slider = () => {
                                 </p>
                             </div>
                             <div className={styles.slider_right}>
-                                <Image src={s3}></Image>
+                                <Image src={s2}></Image>
                             </div>
                         </div>
                     </SwiperSlide>

@@ -38,10 +38,7 @@ const Header = () => {
                         <div className={styles.header_box_l_r}>
                             <div className={styles.number_area}>
                                 <div className={styles.icon}>
-                                    <FontAwesomeIcon
-                                        icon={faPhoneAlt}
-                                        name="fas fa-phone"
-                                    />
+                                    <FontAwesomeIcon icon={faPhoneAlt} />
                                 </div>
                                 <div className={styles.text}>
                                     <h4>Order Now</h4>
@@ -144,11 +141,7 @@ const Header = () => {
                         <div className={styles.header_box_l_r}>
                             <div className={styles.shop_icon}>
                                 <div>
-                                    <FontAwesomeIcon
-                                        icon={faShoppingCart}
-                                        name="fal fa-shopping-cart"
-                                    />
-                                    <FontAwesomeIcon icon="fal fa-shopping-cart" />
+                                    <FontAwesomeIcon icon={faShoppingCart} />
                                     <div className={styles.shop_counter}>2</div>
                                 </div>
                             </div>

@@ -19,6 +19,7 @@
     z-index: 99;
     width: 100%;
     transition: 0.3s;
+    box-shadow: 0 0 10px 0px rgb(253, 222, 222);
 }
 
 /*sticky START CSS*/

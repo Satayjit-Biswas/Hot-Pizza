@@ -29,9 +29,13 @@ p{
 }
 .d-flex{
   display: flex;
-  align-items: center;
 }
-
+.col-50{
+  width: 50%;
+}
+.col-25{
+  width: 25%;
+}
 .swiper-button-next:after, .swiper-button-prev:after {
   color: #fff;
 }
