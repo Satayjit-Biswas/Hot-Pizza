@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Slider from "../components/Header/Slider";
+import PizzaDay from "../components/Home/PizzaDay";
+import Slider from "../components/Home/Slider";
 export default function Home() {
     return (
         <>
@@ -9,6 +10,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Slider></Slider>
+            <PizzaDay></PizzaDay>
         </>
     );
 }
